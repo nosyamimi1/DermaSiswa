@@ -1,0 +1,97 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+main {
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .card {
+    max-width: 200px;
+    flex: 1 1 210px;
+    text-align: center;
+    max-height: 390px;
+    border: 1px solid lightgray;
+    margin: 20px;
+}
+
+main .card .image {
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+
+}
+
+main .card .image img {
+    width: 100%;
+    
+    object-fit: cover ;
+}
+
+main .card .caption {
+    margin: 0;
+    padding-top: 150px;
+    padding-left: 1em;
+    text-align: left;
+    height: 70%;
+}
+
+main .card .caption p {
+    font-size: 1.0rem;
+
+}
+
+main .card .caption a{
+    width: 50%;
+}
+
+main .card button{
+    border: 2px solid black;
+    padding: .5em;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+
+
+.section-padding {
+    padding:  0;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: black;
+}
+
+.w-100 {
+    height: 100vh;
+}
